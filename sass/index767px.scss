@@ -1,0 +1,21 @@
+@media screen and(max-width: 767px) {
+  .page-top {
+    .navbar-top {
+      .nav-container {
+        width: 100%;
+
+        .topnav-rigth {
+          .hidden-x {
+            display: none !important;
+          }
+
+        }
+        >.navbar {
+          li.hidden-x {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}

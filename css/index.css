@@ -1,0 +1,563 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-top {
+  margin-bottom: 0;
+  border-width: 0 0 1px;
+  position: relative;
+  min-height: 48px;
+}
+
+.page-top .navbar-top {
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  display: block;
+}
+
+.page-top .navbar-top .nav-container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #333;
+  content: "";
+  display: table;
+}
+
+.page-top .navbar-top .nav-container ul.topnav-rigth {
+  color: #a2a2a2;
+  font-size: 15px;
+  float: right;
+  padding-left: 0;
+  margin: 0;
+}
+
+.page-top .navbar-top .nav-container ul.topnav-rigth li.navbar-twitter {
+  float: left;
+  position: relative;
+  display: block;
+  color: #a2a2a2;
+  line-height: 23px;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.page-top .navbar-top .nav-container ul.topnav-rigth li.navbar-twitter:hover {
+  position: relative;
+  display: block;
+  box-shadow: 0px 3px 0px 0px #179cde;
+  padding-bottom: 13.5px;
+}
+
+.page-top .navbar-top .nav-container ul.topnav-rigth li.navbar-twitter .nav-container-twitter {
+  color: #0088cc;
+  line-height: 17px;
+  font-size: 15px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.page-top .navbar-top .nav-container ul.topnav-rigth li.navbar-twitter .nav-container-twitter .twitter-icon {
+  width: 21px;
+  height: 17px;
+  vertical-align: text-top;
+  background: url(../image/twitter.png) 0 0 no-repeat;
+  opacity: 0.9;
+  display: inline-block;
+}
+
+.page-top .navbar-top .nav-container ul.navbar {
+  color: #a2a2a2;
+  font-size: 15px;
+  float: left;
+  margin: 0;
+  padding-left: 0;
+}
+
+.page-top .navbar-top .nav-container ul.navbar li {
+  float: left;
+  position: relative;
+  display: block;
+  color: #0088cc;
+  padding: 10px 15px;
+  line-height: 23px;
+}
+
+.page-top .navbar-top .nav-container ul.navbar li:hover {
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0px 3px 0px 0px #179cde;
+  padding-bottom: 13.5px;
+}
+
+.page-top .navbar-top .nav-container ul.navbar li.nav-home {
+  box-shadow: 0px 3px 0px 0px #179cde;
+  padding-bottom: 13.5px;
+}
+
+.page-top .navbar-top .nav-container ul.navbar li > a {
+  color: #0088cc;
+}
+
+.tel-page {
+  box-sizing: border-box;
+  display: block;
+  color: #333;
+  padding: 0;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tel-page .tel-main-wrap {
+  margin-top: 17px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head {
+  margin-top: 17px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav {
+  position: relative;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav .tel-side-wrap {
+  position: absolute;
+  right: 137px;
+  background: none;
+  padding: 5px 17px;
+  margin: 20px 0 17px 26px;
+  border-left: 5px solid #179cde;
+  font-size: 12px;
+  width: 180px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav .tel-side-wrap .tel-side-header {
+  display: block;
+  color: #0088cc;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav .tel-side-wrap .side-blog-heads {
+  box-sizing: border-box;
+  display: block;
+  font-size: 12px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav .tel-side-wrap .side-blog-heads .side-blog-head {
+  display: block;
+  margin-top: 10px;
+  color: #0088cc;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav .tel-side-wrap .side-blog-heads .side-blog-head .side-blog-date {
+  color: #000;
+  font-weight: bold;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-side-nav .tel-side-wrap .side-blog-heads .side-blog-head .side-blog-text {
+  color: #0088cc;
+  width: 141px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-logo-wrap {
+  max-width: 315px;
+  margin: 0 auto;
+  padding: 20px 0 20px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-logo-wrap .tel-main-logo {
+  display: block;
+  line-height: 0;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-logo-wrap .tel-main-logo img.tel-main-logo {
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-logo-wrap .tel-main-logo .logo-title {
+  width: 144px;
+  height: 36px;
+  background: url(../image/Telegram-logo.png) 0 0 no-repeat;
+  margin: 18px auto 6px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-logo-wrap .tel-main-text {
+  font-size: 20px;
+  line-height: 148%;
+  max-width: 285px;
+  margin: 0 auto;
+  color: #8c8c8c;
+  text-align: center;
+  padding: 1px 0 10px;
+  font-weight: 300;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-mobile {
+  text-align: center;
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-mobile a {
+  text-align: center;
+  display: inline-block;
+  height: 290px;
+  padding-top: 250px;
+  padding-bottom: 20px;
+  margin: 40px 0;
+  font-size: 15px;
+  max-width: 100%;
+  color: #0088cc;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-mobile a:hover {
+  box-shadow: 0px 3px 0px 0px #179cde;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-mobile a.tel-download-android {
+  width: 28.21%;
+  min-width: 245px;
+  background: url(../image/SiteAndroid.jpg) 50% 0 no-repeat;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-mobile a.tel-download-ios {
+  width: 43%;
+  min-width: 350px;
+  background: url(../image/SiteiOs.jpg) 50% 0 no-repeat;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-mobile a.tel-download-wp {
+  width: 28%;
+  min-width: 245px;
+  background: url(../image/SiteWP.jpg) 50% 0 no-repeat;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-header {
+  color: #222222;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 {
+  height: 291px;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  min-width: 804px;
+  width: 1313px;
+  height: 308px;
+  background: url(../image/SiteDesktop.jpg) 50% 19px no-repeat;
+  box-sizing: border-box;
+  content: " ";
+  display: table;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop .tel-download-desktop-link {
+  width: 804px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop .tel-download-desktop-link a {
+  text-align: center;
+  display: inline-block;
+  padding: 270px 0 20px;
+  font-size: 15px;
+  vertical-align: top;
+  color: #0088cc;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop .tel-download-desktop-link a:hover {
+  box-shadow: 0px 3px 0px 0px #179cde;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop .tel-download-desktop-link a.tel-download-desktop-web {
+  width: 29%;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop .tel-download-desktop-link a.tel-download-desktop-macOS {
+  width: 38%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-download-desktop-section .tel-download-desktop-wrap1 .tel-download-desktop-wrap .tel-download-desktop .tel-download-desktop-link a.tel-download-desktop-PML {
+  width: 32%;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body {
+  margin-top: 40px;
+  padding-top: 5px;
+  width: 1170px;
+  height: 846px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-body-header {
+  color: #222222;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card {
+  max-width: 950px;
+  width: 950px;
+  height: 783px;
+  margin: 18px auto 0;
+  padding: 0;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell {
+  float: left;
+  width: 33.33333%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap {
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 20px 0 9px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background-size: 160px 160px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-connect {
+  background-image: url(../image/tl_card_connect.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-coordinate {
+  background-image: url(../image/tl_card_coordinate.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-synchronize {
+  background-image: url(../image/tl_card_synchronize.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-send {
+  background-image: url(../image/tl_card_send.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-encrypt {
+  background-image: url(../image/tl_card_encrypt.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-destruct {
+  background-image: url(../image/tl_card_destruct.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-store {
+  background-image: url(../image/tl_card_store.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-build {
+  background-image: url(../image/tl_card_build.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-enjoy {
+  background-image: url(../image/tl_card_process.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-private {
+  background-image: url(../image/tl_card_private.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-cloud {
+  background-image: url(../image/tl_card_cloud.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-fast {
+  background-image: url(../image/tl_card_fast.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-distributed {
+  background-image: url(../image/tl_card_decentralized.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-open {
+  background-image: url(../image/tl_card_open.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-free {
+  background-image: url(../image/tl_card_free.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-secure {
+  background-image: url(../image/tl_card_secure.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-powerful {
+  background-image: url(../image/tl_card_powerful.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap > div.tel-main-card-wcdi {
+  background-image: url(../image/tl_card_wecandoit.gif);
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap .tel-main-card-header {
+  color: #a19679;
+  text-align: center;
+  margin: 15px 0 6px;
+  font-size: 26px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  position: relative;
+  height: 20px;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-body .tel-main-card .tel-main-card-cell .tel-main-card-wrap .tel-main-card-lead {
+  font-size: 15px;
+  text-align: center;
+  width: 260px;
+  height: 23px;
+  box-sizing: border-box;
+}
+
+.tel-page .tel-main-wrap .tel-main-head .tel-main-noshare {
+  height: 50px;
+}
+
+.footer-wrap {
+  border-top: 1px solid #e8e8e8;
+  max-width: 925px;
+  margin: 10px auto 0;
+  padding: 28px 0 34px;
+  box-sizing: border-box;
+  display: block;
+  height: 193px;
+}
+
+.footer-wrap .footer-nav {
+  padding-left: 0;
+  padding: 0 0 0 63px;
+  margin: 0;
+}
+
+.footer-wrap .footer-nav .footer-nav-tel {
+  padding-left: 0;
+  width: 260px;
+  padding-right: 50px;
+  float: left;
+}
+
+.footer-wrap .footer-nav .footer-nav-tel h5 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  position: relative;
+  font-family: inherit;
+  line-height: 1.1;
+  color: inherit;
+  box-sizing: border-box;
+  display: block;
+}
+
+.footer-wrap .footer-nav .footer-nav-tel .footer-tel-description {
+  font-size: 13px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.footer-wrap .footer-nav .footer-nav-list {
+  float: left;
+  padding-right: 78px;
+}
+
+.footer-wrap .footer-nav .footer-nav-list h5 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  position: relative;
+  line-height: 1.1;
+}
+
+.footer-wrap .footer-nav .footer-nav-list h5 a {
+  color: inherit;
+}
+
+.footer-wrap .footer-nav .footer-nav-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.footer-wrap .footer-nav .footer-nav-list ul li {
+  margin: 0;
+  padding: 0;
+  display: list-item;
+}
+
+.footer-wrap .footer-nav .footer-nav-list ul li a {
+  color: #0088CC;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.footer-wrap .footer-nav #footer-nav-last {
+  padding-right: 0;
+}
